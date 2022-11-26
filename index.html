@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Teste Blá Blá</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div id="root"></div>
+
+    <h1><center>SISTEMA DE SUPORTE À DECISÃO</center></h1>
+
+    <h2><center>Prencha os campos:</center></h2>
+
+    <div class="container">
+
+      <div class="box">
+        <label for="age-choose">  Idade: </label>
+        <select id='itemslistage'></select>
+      </div>
+
+      <div class="box">
+        <label for="sex-choose">  Sexo biológico: </label>
+        <select id='itemslistsex'></select>
+      </div>
+
+      <div class="box">
+            <label for="cat-choose">  Categoria: </label>
+            <select id='itemslistcat'></select>
+      </div>
+
+      <div class="box">
+        <label for="sub-choose">  Subcategoria: </label>
+        <select id='itemslistsub'></select>
+      </div>
+
+      <button id="btn">Buscar</button>
+
+    </div>
+
+    <div id="outputContainer"></div>
+
+    <script src="scripts.js"></script>
+
+  </body>
+
+</html>
